@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 
-// Simple pure-JS "ML" demo: learn y = 2x - 1 using gradient descent,
-// without any heavy ML libraries. This keeps npm install very fast.
 
 const MlDemo = () => {
   const [loading, setLoading] = useState(true)
